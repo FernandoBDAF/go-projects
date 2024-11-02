@@ -1,1 +1,6 @@
 **/.env
+**/.apiConfig
+**/function.zip
+**/bootstrap
+**/main
+**/.DS_Store
