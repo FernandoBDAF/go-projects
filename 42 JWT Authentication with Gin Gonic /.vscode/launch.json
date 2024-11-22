@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Go JWT Debug",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/main.go",
+            "env": {
+                "PORT": "8888",
+                "MONGO_URL": "mongodb://localhost:27017",
+                "SECRET_KEY": "your-secret-key"
+            },
+            "buildFlags": "-gcflags='all=-N -l'",
+            "showLog": true
+        }
+    ]
+}
